@@ -40,30 +40,3 @@ The frontend application for ProjectFlow, built with Next.js App Router, TypeScr
 git clone https://github.com/yourusername/projectflow-frontend.git
 cd projectflow-frontend
 
-projectflow-frontend/
-├── app/                      # App Router directory
-│   ├── (auth)/               # Authentication layout
-│   ├── (dashboard)/          # Authenticated app layout
-│   │   ├── clients/          # Client management routes
-│   │   ├── projects/         # Project management routes
-│   │   └── settings/         # User settings
-│   ├── api/                  # API route handlers
-│   └── public/               # Static assets
-├── components/               # Reusable components
-│   ├── auth/                 # Auth-specific components
-│   ├── clients/              # Client-related components
-│   ├── dashboard/            # Dashboard widgets
-│   ├── projects/             # Project components
-│   ├── ui/                   # UI primitives (buttons, inputs)
-│   └── providers/            # Context providers
-├── hooks/                    # Custom hooks
-│   ├── useApi.ts             # API hook
-│   └── useAuth.ts            # Auth hook
-├── lib/                      # Utilities
-│   ├── api/                  # API clients
-│   ├── constants/            # App constants
-│   └── utils/                # Helper functions
-├── stores/                   # Zustand stores
-├── styles/                   # Global styles
-├── types/                    # TypeScript types
-└── tests/                    # Test files
